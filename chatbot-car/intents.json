@@ -1,0 +1,55 @@
+{
+"intents": [
+{
+    "tag": "greeting",
+    "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there",
+        "Hello",
+        "Good day"
+    ],
+    "responses": [
+        "Hey :)",
+        "Hello, how can I help you?",
+        "Hi, do you have an idea of what you are looking for?"
+    ]
+},
+{
+    "tag": "goodbye",
+    "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+    ],
+    "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back soon"
+    ]
+},
+{
+    "tag": "thanks",
+    "patterns": [
+        "Thank you",
+        "I appreciate the help"
+    ],
+    "responses": [
+        "You're Welcome! Is there anything else I can do for you today?",
+        "No problem, is there anything else I can do for you today?"
+    ]
+},
+{
+    "tag": "Help",
+    "patterns": [
+        "Can you help me?",
+        "I am looking for a new car",
+        "I want an SUV"
+    ],
+    "responses": [
+        "We can help you with finding a new car please give me some details on the car you would like"
+    ]
+}
+]
+}
